@@ -1,0 +1,6 @@
+framework module Pods_KeychainAppOne {
+  umbrella header "Pods-KeychainAppOne-umbrella.h"
+
+  export *
+  module * { export * }
+}

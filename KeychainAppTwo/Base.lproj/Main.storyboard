@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Set View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SetViewController" customModule="KeychainAppTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q0I-hV-0RG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riY-xZ-HT9">
+                                <rect key="frame" x="16" y="88" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r30-e0-Aal">
+                                <rect key="frame" x="16" y="125" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaT-ZT-jh9">
+                                <rect key="frame" x="16" y="768" width="382" height="50"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="nlc-bK-gEC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Get">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="getFromKeychainButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Slp-Zu-2bE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xr-eq-6k3">
+                                <rect key="frame" x="16" y="690" width="382" height="50"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="605-q6-OL7"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Delete">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="actionDeleteKeychain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="myf-mj-eyB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Gjg-4p-ysL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gjg-4p-ysL" firstAttribute="trailing" secondItem="riY-xZ-HT9" secondAttribute="trailing" constant="16" id="0Yb-j4-Odm"/>
+                            <constraint firstItem="r30-e0-Aal" firstAttribute="leading" secondItem="Gjg-4p-ysL" secondAttribute="leading" constant="16" id="2Ox-18-w0C"/>
+                            <constraint firstItem="Gjg-4p-ysL" firstAttribute="trailing" secondItem="XaT-ZT-jh9" secondAttribute="trailing" constant="16" id="8Qb-3A-C6P"/>
+                            <constraint firstItem="5xr-eq-6k3" firstAttribute="leading" secondItem="Gjg-4p-ysL" secondAttribute="leading" constant="16" id="Kja-5g-BgJ"/>
+                            <constraint firstItem="XaT-ZT-jh9" firstAttribute="leading" secondItem="Gjg-4p-ysL" secondAttribute="leading" constant="16" id="QNP-HF-UyA"/>
+                            <constraint firstItem="Gjg-4p-ysL" firstAttribute="trailing" secondItem="5xr-eq-6k3" secondAttribute="trailing" constant="16" id="Tmc-ji-DAu"/>
+                            <constraint firstItem="r30-e0-Aal" firstAttribute="top" secondItem="riY-xZ-HT9" secondAttribute="bottom" constant="16" id="X9S-r5-0JN"/>
+                            <constraint firstItem="Gjg-4p-ysL" firstAttribute="bottom" secondItem="XaT-ZT-jh9" secondAttribute="bottom" constant="44" id="YM8-FD-pkv"/>
+                            <constraint firstItem="XaT-ZT-jh9" firstAttribute="top" secondItem="5xr-eq-6k3" secondAttribute="bottom" constant="28" id="cVm-ZK-6bT"/>
+                            <constraint firstItem="riY-xZ-HT9" firstAttribute="top" secondItem="Gjg-4p-ysL" secondAttribute="top" constant="44" id="saX-OA-O7N"/>
+                            <constraint firstItem="Gjg-4p-ysL" firstAttribute="trailing" secondItem="r30-e0-Aal" secondAttribute="trailing" constant="16" id="xlj-0Z-IDF"/>
+                            <constraint firstItem="riY-xZ-HT9" firstAttribute="leading" secondItem="Gjg-4p-ysL" secondAttribute="leading" constant="16" id="zjS-2q-GnN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="deleteKeychainButton" destination="5xr-eq-6k3" id="ITJ-BK-j5v"/>
+                        <outlet property="getFromKeychainButton" destination="XaT-ZT-jh9" id="qr9-XR-rzA"/>
+                        <outlet property="nameLabel" destination="riY-xZ-HT9" id="Mc3-EY-QBU"/>
+                        <outlet property="passwordLabel" destination="r30-e0-Aal" id="sj0-cd-aOI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
