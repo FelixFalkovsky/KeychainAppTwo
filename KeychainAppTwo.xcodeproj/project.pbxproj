@@ -15,6 +15,7 @@
 		DC6E4CC827907E8400EC52B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6E4CC727907E8400EC52B6 /* Assets.xcassets */; };
 		DC6E4CCB27907E8400EC52B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E4CC927907E8400EC52B6 /* LaunchScreen.storyboard */; };
 		DC6E4CD327907FB400EC52B6 /* SharedKeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E4CD227907FB400EC52B6 /* SharedKeychainSwift.swift */; };
+		DC8772AE2792E5C500C7A62C /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = DC8772AD2792E5C500C7A62C /* JGProgressHUD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8772AE2792E5C500C7A62C /* JGProgressHUD in Frameworks */,
 				542B59B526FE656450C3E928 /* Pods_KeychainAppTwo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +124,9 @@
 			dependencies = (
 			);
 			name = KeychainAppTwo;
+			packageProductDependencies = (
+				DC8772AD2792E5C500C7A62C /* JGProgressHUD */,
+			);
 			productName = KeychainAppTwo;
 			productReference = DC6E4CBB27907E8200EC52B6 /* KeychainAppTwo.app */;
 			productType = "com.apple.product-type.application";
@@ -150,6 +155,9 @@
 				Base,
 			);
 			mainGroup = DC6E4CB227907E8200EC52B6;
+			packageReferences = (
+				DC8772AC2792E5C500C7A62C /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
 			productRefGroup = DC6E4CBC27907E8200EC52B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -448,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC8772AC2792E5C500C7A62C /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC8772AD2792E5C500C7A62C /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC8772AC2792E5C500C7A62C /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC6E4CB327907E8200EC52B6 /* Project object */;
 }

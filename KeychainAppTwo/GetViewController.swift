@@ -7,6 +7,7 @@
 
 import UIKit
 import KeychainSwift
+import JGProgressHUD
 
 class GetViewController: UIViewController {
     
@@ -18,6 +19,7 @@ class GetViewController: UIViewController {
     @IBOutlet private weak var deleteKeychainButton: UIButton!
     @IBOutlet private weak var succesView: UIView!
     
+    var completionHandler: (() -> Void)?
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -32,17 +34,34 @@ class GetViewController: UIViewController {
     }
     
     @IBAction func getFromKeychainButtonTapped(_ sender: UIButton) {
-        guard let name = SharedKeychainSwift.get(key: "name") else { return }
-        guard let password = SharedKeychainSwift.get(key: "password") else { return }
         showSuccesView()
-        nameLabel.text = "Name: \(name)"
-        passwordLabel.text = "Password: \(password)"
-        
-        
     }
     
     private func showSuccesView() {
-        
+        let hud = JGProgressHUD()
+        hud.textLabel.text = "Loading"
+        hud.style = .dark
+        hud.parallaxMode = .alwaysOn
+        hud.show(in: self.view)
+        hud.dismiss(afterDelay: 1.0, animated: true) {
+            self.successView()
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                guard let name = SharedKeychainSwift.get(key: "name") else { return }
+                guard let password = SharedKeychainSwift.get(key: "password") else { return }
+                self.nameLabel.text = "Name: \(name)"
+                self.passwordLabel.text = "Password: \(password)"
+            }
+        }
+    }
+    
+    private func successView() {
+        let succes = JGProgressHUDSuccessIndicatorView()
+        let hud = JGProgressHUD()
+        hud.style = .dark
+        hud.show(in: self.view)
+        hud.indicatorView = succes
+        hud.dismiss(animated: true)
     }
     
     @IBAction func actionDeleteKeychain(_ sender: UIButton) {
