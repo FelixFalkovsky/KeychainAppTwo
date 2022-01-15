@@ -4,7 +4,7 @@
 <dict>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)group.com.mobiledevelopment.rss</string>
+		<string>$(AppIdentifierPrefix)com.mobiledevelopment.rss</string>
 	</array>
 </dict>
 </plist>

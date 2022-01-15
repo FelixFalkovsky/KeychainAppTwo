@@ -10,44 +10,12 @@
 		542B59B526FE656450C3E928 /* Pods_KeychainAppTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276965E8F2A83CD1E807BE46 /* Pods_KeychainAppTwo.framework */; };
 		DC6E4CBF27907E8200EC52B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E4CBE27907E8200EC52B6 /* AppDelegate.swift */; };
 		DC6E4CC127907E8300EC52B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E4CC027907E8300EC52B6 /* SceneDelegate.swift */; };
-		DC6E4CC327907E8300EC52B6 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E4CC227907E8300EC52B6 /* SetViewController.swift */; };
+		DC6E4CC327907E8300EC52B6 /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E4CC227907E8300EC52B6 /* GetViewController.swift */; };
 		DC6E4CC627907E8300EC52B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E4CC427907E8300EC52B6 /* Main.storyboard */; };
 		DC6E4CC827907E8400EC52B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6E4CC727907E8400EC52B6 /* Assets.xcassets */; };
 		DC6E4CCB27907E8400EC52B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E4CC927907E8400EC52B6 /* LaunchScreen.storyboard */; };
 		DC6E4CD327907FB400EC52B6 /* SharedKeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E4CD227907FB400EC52B6 /* SharedKeychainSwift.swift */; };
-		DC6E4CD627907FFD00EC52B6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6E4CD527907FFD00EC52B6 /* StoreKit.framework */; };
-		DC6E4CDD2790803000EC52B6 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6E4CDC2790803000EC52B6 /* UniformTypeIdentifiers.framework */; };
-		DC6E4CE02790803000EC52B6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6E4CDF2790803000EC52B6 /* Media.xcassets */; };
-		DC6E4CE22790803000EC52B6 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E4CE12790803000EC52B6 /* ActionViewController.swift */; };
-		DC6E4CE52790803000EC52B6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E4CE32790803000EC52B6 /* MainInterface.storyboard */; };
-		DC6E4CE92790803000EC52B6 /* KeychainAppOne.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC6E4CDB2790803000EC52B6 /* KeychainAppOne.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DC6E4CF02790827A00EC52B6 /* SharedKeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E4CD227907FB400EC52B6 /* SharedKeychainSwift.swift */; };
-		DCDA18E627915B2800F5901F /* Pods_KeychainAppOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052637639594376710B101A2 /* Pods_KeychainAppOne.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DC6E4CE72790803000EC52B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC6E4CB327907E8200EC52B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC6E4CDA2790803000EC52B6;
-			remoteInfo = KeychainAppOne;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DC6E4CED2790803000EC52B6 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				DC6E4CE92790803000EC52B6 /* KeychainAppOne.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		052637639594376710B101A2 /* Pods_KeychainAppOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainAppOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,21 +26,14 @@
 		DC6E4CBB27907E8200EC52B6 /* KeychainAppTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainAppTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6E4CBE27907E8200EC52B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6E4CC027907E8300EC52B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC6E4CC227907E8300EC52B6 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		DC6E4CC227907E8300EC52B6 /* GetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewController.swift; sourceTree = "<group>"; };
 		DC6E4CC527907E8300EC52B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC6E4CC727907E8400EC52B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC6E4CCA27907E8400EC52B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC6E4CCC27907E8400EC52B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC6E4CD227907FB400EC52B6 /* SharedKeychainSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedKeychainSwift.swift; sourceTree = "<group>"; };
 		DC6E4CD427907FDF00EC52B6 /* KeychainAppTwo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainAppTwo.entitlements; sourceTree = "<group>"; };
-		DC6E4CD527907FFD00EC52B6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		DC6E4CDB2790803000EC52B6 /* KeychainAppOne.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeychainAppOne.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6E4CDC2790803000EC52B6 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
-		DC6E4CDF2790803000EC52B6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		DC6E4CE12790803000EC52B6 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		DC6E4CE42790803000EC52B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		DC6E4CE62790803000EC52B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC6E4CEE2790804000EC52B6 /* KeychainAppOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainAppOne.entitlements; sourceTree = "<group>"; };
 		DCC5AEEEFCA5DDDA024D697A /* Pods-KeychainAppTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainAppTwo.release.xcconfig"; path = "Target Support Files/Pods-KeychainAppTwo/Pods-KeychainAppTwo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,16 +43,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				542B59B526FE656450C3E928 /* Pods_KeychainAppTwo.framework in Frameworks */,
-				DC6E4CD627907FFD00EC52B6 /* StoreKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC6E4CD82790803000EC52B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC6E4CDD2790803000EC52B6 /* UniformTypeIdentifiers.framework in Frameworks */,
-				DCDA18E627915B2800F5901F /* Pods_KeychainAppOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				DC6E4CBD27907E8200EC52B6 /* KeychainAppTwo */,
-				DC6E4CDE2790803000EC52B6 /* KeychainAppOne */,
 				DC6E4CBC27907E8200EC52B6 /* Products */,
 				5148B7C5C2330DB94479530D /* Pods */,
 				F45A8D54B6BDA451ED6F3110 /* Frameworks */,
@@ -124,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				DC6E4CBB27907E8200EC52B6 /* KeychainAppTwo.app */,
-				DC6E4CDB2790803000EC52B6 /* KeychainAppOne.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,7 +85,7 @@
 				DC6E4CD227907FB400EC52B6 /* SharedKeychainSwift.swift */,
 				DC6E4CBE27907E8200EC52B6 /* AppDelegate.swift */,
 				DC6E4CC027907E8300EC52B6 /* SceneDelegate.swift */,
-				DC6E4CC227907E8300EC52B6 /* SetViewController.swift */,
+				DC6E4CC227907E8300EC52B6 /* GetViewController.swift */,
 				DC6E4CC427907E8300EC52B6 /* Main.storyboard */,
 				DC6E4CC727907E8400EC52B6 /* Assets.xcassets */,
 				DC6E4CC927907E8400EC52B6 /* LaunchScreen.storyboard */,
@@ -145,22 +94,9 @@
 			path = KeychainAppTwo;
 			sourceTree = "<group>";
 		};
-		DC6E4CDE2790803000EC52B6 /* KeychainAppOne */ = {
-			isa = PBXGroup;
-			children = (
-				DC6E4CEE2790804000EC52B6 /* KeychainAppOne.entitlements */,
-				DC6E4CDF2790803000EC52B6 /* Media.xcassets */,
-				DC6E4CE12790803000EC52B6 /* ActionViewController.swift */,
-				DC6E4CE32790803000EC52B6 /* MainInterface.storyboard */,
-				DC6E4CE62790803000EC52B6 /* Info.plist */,
-			);
-			path = KeychainAppOne;
-			sourceTree = "<group>";
-		};
 		F45A8D54B6BDA451ED6F3110 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC6E4CD527907FFD00EC52B6 /* StoreKit.framework */,
 				276965E8F2A83CD1E807BE46 /* Pods_KeychainAppTwo.framework */,
 				DC6E4CDC2790803000EC52B6 /* UniformTypeIdentifiers.framework */,
 				052637639594376710B101A2 /* Pods_KeychainAppOne.framework */,
@@ -180,35 +116,15 @@
 				DC6E4CB827907E8200EC52B6 /* Frameworks */,
 				DC6E4CB927907E8200EC52B6 /* Resources */,
 				CE455B32B18A6742DE00D699 /* [CP] Embed Pods Frameworks */,
-				DC6E4CED2790803000EC52B6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC6E4CE82790803000EC52B6 /* PBXTargetDependency */,
 			);
 			name = KeychainAppTwo;
 			productName = KeychainAppTwo;
 			productReference = DC6E4CBB27907E8200EC52B6 /* KeychainAppTwo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DC6E4CDA2790803000EC52B6 /* KeychainAppOne */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC6E4CEA2790803000EC52B6 /* Build configuration list for PBXNativeTarget "KeychainAppOne" */;
-			buildPhases = (
-				29235B8B48E34EFA7CA7B02B /* [CP] Check Pods Manifest.lock */,
-				DC6E4CD72790803000EC52B6 /* Sources */,
-				DC6E4CD82790803000EC52B6 /* Frameworks */,
-				DC6E4CD92790803000EC52B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KeychainAppOne;
-			productName = KeychainAppOne;
-			productReference = DC6E4CDB2790803000EC52B6 /* KeychainAppOne.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -221,9 +137,6 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					DC6E4CBA27907E8200EC52B6 = {
-						CreatedOnToolsVersion = 13.1;
-					};
-					DC6E4CDA2790803000EC52B6 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -242,7 +155,6 @@
 			projectRoot = "";
 			targets = (
 				DC6E4CBA27907E8200EC52B6 /* KeychainAppTwo */,
-				DC6E4CDA2790803000EC52B6 /* KeychainAppOne */,
 			);
 		};
 /* End PBXProject section */
@@ -258,40 +170,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC6E4CD92790803000EC52B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC6E4CE02790803000EC52B6 /* Media.xcassets in Resources */,
-				DC6E4CE52790803000EC52B6 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29235B8B48E34EFA7CA7B02B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KeychainAppOne-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3574F6A15AC99C46765C8990 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,30 +220,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC6E4CD327907FB400EC52B6 /* SharedKeychainSwift.swift in Sources */,
-				DC6E4CC327907E8300EC52B6 /* SetViewController.swift in Sources */,
+				DC6E4CC327907E8300EC52B6 /* GetViewController.swift in Sources */,
 				DC6E4CBF27907E8200EC52B6 /* AppDelegate.swift in Sources */,
 				DC6E4CC127907E8300EC52B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC6E4CD72790803000EC52B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC6E4CF02790827A00EC52B6 /* SharedKeychainSwift.swift in Sources */,
-				DC6E4CE22790803000EC52B6 /* ActionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DC6E4CE82790803000EC52B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DC6E4CDA2790803000EC52B6 /* KeychainAppOne */;
-			targetProxy = DC6E4CE72790803000EC52B6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DC6E4CC427907E8300EC52B6 /* Main.storyboard */ = {
@@ -379,14 +243,6 @@
 				DC6E4CCA27907E8400EC52B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DC6E4CE32790803000EC52B6 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC6E4CE42790803000EC52B6 /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -531,7 +387,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.stage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -562,66 +418,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.dev;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DC6E4CEB2790803000EC52B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D11817A6E0608AF85ED0F7D5 /* Pods-KeychainAppOne.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_ENTITLEMENTS = KeychainAppOne/KeychainAppOne.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RF9T8S9829;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KeychainAppOne/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = KeychainAppOne;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.stage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DC6E4CEC2790803000EC52B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13AE6714E5A6B9E7AFB63AFD /* Pods-KeychainAppOne.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_ENTITLEMENTS = KeychainAppOne/KeychainAppOne.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RF9T8S9829;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KeychainAppOne/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = KeychainAppOne;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.stage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -645,15 +443,6 @@
 			buildConfigurations = (
 				DC6E4CD027907E8400EC52B6 /* Debug */,
 				DC6E4CD127907E8400EC52B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC6E4CEA2790803000EC52B6 /* Build configuration list for PBXNativeTarget "KeychainAppOne" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC6E4CEB2790803000EC52B6 /* Debug */,
-				DC6E4CEC2790803000EC52B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

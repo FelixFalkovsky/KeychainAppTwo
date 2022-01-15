@@ -14,10 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        /* Обязательно указываем Prefix по ссылке ниже подробное описание  https://developer.apple.com/documentation/security/keychain_services/keychain_items/sharing_access_to_keychain_items_among_a_collection_of_apps
+         Далее все делаем как прописано в библиотеке KeychainSwift
+         */
         let keychain = KeychainSwift()
-        let accessGroup = "group.com.mobiledevelopment.rss" // added prefix for group
-        let appPrefixId = Bundle.main.infoDictionary!["AppIdentifierPrefix"] as! String
-        SharedKeychainSwift.start(withKeychain: keychain, accessGroup: appPrefixId)
+        let accessGroup = "RF9T8S9829.com.mobiledevelopment.rss" 
+        SharedKeychainSwift.start(withKeychain: keychain, accessGroup: accessGroup)
         return true
     }
 
