@@ -10,7 +10,7 @@ import KeychainSwift
 import JGProgressHUD
 
 class GetViewController: UIViewController {
-    
+  
     let profileImageButtonHeight: CGFloat = 120
     
     @IBOutlet private weak var nameLabel: UILabel!
@@ -65,8 +65,9 @@ class GetViewController: UIViewController {
     }
     
     @IBAction func actionDeleteKeychain(_ sender: UIButton) {
-        SharedKeychainSwift.delete(key: "name")
-        SharedKeychainSwift.delete(key: "password")
+      if SharedKeychainSwift.clear() {
+          print("Keychain Clear ⚠️")
+      }
     }
 
 }
